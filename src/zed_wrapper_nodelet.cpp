@@ -603,7 +603,7 @@ namespace zed_wrapper {
             string rgb_topic = "rgb/" + img_topic;
             string rgb_raw_topic = "rgb/" + img_raw_topic;
             string rgb_cam_info_topic = "rgb/camera_info";
-            rgb_frame_id = "/zed_current_frame";
+            rgb_frame_id = "/ZED_left_camera";
 
             string left_topic = "left/" + img_topic;
             string left_raw_topic = "left/" + img_raw_topic;
